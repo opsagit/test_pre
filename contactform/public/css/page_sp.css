@@ -1,0 +1,201 @@
+@charset "UTF-8";
+/* ----------------------------------------
+
+	SP用
+	PC用CSS を上書きする
+
+---------------------------------------- */
+/****************************************
+ * トップ
+ ****************************************/
+#branding {
+  padding-top: 0;
+  background-position: center top;
+  background-size: cover;
+}
+#branding .section_980 {
+  padding-top: 0;
+  padding-bottom: 9.4em;
+}
+#branding #b_tx {
+  margin-bottom: 0.8em;
+  padding-top: 2.15em;
+  font-size: 1em;
+  text-align: center;
+}
+#branding #b_img {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+#problem {
+  background-size: cover;
+  margin: auto 10px;
+}
+#problem .section_980 {
+  padding-top: 2.15em;
+}
+#problem h2 {
+  font-size: 1em;
+}
+
+#element {
+  background-size: cover;
+}
+#element .section_980 {
+  padding-bottom: 2.5em;
+}
+#element .section_980 #e_btn {
+  z-index: 0;
+  position: relative;
+  top: auto;
+  left: auto;
+  margin: auto 10px;
+}
+#element .section_980 #e_btn a {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+#element .section_980 #e_btn .is_sp {
+  display: inline-block;
+}
+#element .lead {
+  margin-bottom: 2em;
+  font-size: 1em;
+  line-height: 1.5;
+}
+#element .shift_center {
+  display: none;
+}
+#element h2 {
+  margin-bottom: 2.4em;
+  padding: 1.92em 0 1.86em;
+}
+
+#message {
+  background-size: cover;
+}
+#message .section_980 {
+  padding-top: 2.15em;
+}
+#message .lead {
+  margin-bottom: 2.4em;
+  font-size: 0.87em;
+  line-height: 1.5;
+}
+#message h2 {
+  margin: 0 10px 1em;
+  font-size: 1em;
+}
+
+#obc {
+  background-size: cover;
+}
+#obc .section_980 {
+  padding: 2.15em 0;
+}
+#obc .lead {
+  margin-bottom: 2.4em;
+  font-size: .87em;
+  line-height: 1.5;
+}
+#obc #o_reason {
+  position: relative;
+  margin: 0 10px;
+  padding: 1.5em 10px 1em;
+  background-image: none;
+  background-color: rgba(255, 255, 255, 0.85);
+}
+#obc #o_reason dl {
+  margin-bottom: 1em;
+  width: 34%;
+}
+#obc #o_reason dl dt {
+  margin-bottom: 0;
+}
+#obc #o_reason dl dd {
+  font-size: 0.72em;
+  font-weight: normal;
+}
+#obc #o_reason p#o_center {
+  position: absolute;
+  float: none;
+  top: 20%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+#obc #o_reason p#o_center img {
+  width: 100%;
+  height: auto;
+  max-width: 80px;
+}
+#obc #o_left dt img {
+  width: 100%;
+  height: auto;
+  max-width: 92px;
+}
+#obc #o_right dt img {
+  width: 100%;
+  height: auto;
+  max-width: 49px;
+}
+#obc h2 {
+  margin: 0 10px 1em;
+  color: #333;
+}
+
+#page_link .section_980 {
+  padding: 2.15em 0;
+}
+#page_link #p_left {
+  width: 50%;
+}
+#page_link #p_left figure {
+  margin-right: 5px;
+  margin-left: 10px;
+}
+#page_link #p_right {
+  width: 50%;
+}
+#page_link #p_right figure {
+  margin-right: 10px;
+  margin-left: 5px;
+}
+#page_link a {
+  display: block;
+}
+#page_link figure {
+  width: auto;
+}
+#page_link figure:hover figcaption {
+  right: 0;
+}
+#page_link figcaption {
+  padding-top: 0;
+  width: 100%;
+  height: 100%;
+  font-weight: normal;
+}
+#page_link h3 {
+  position: absolute;
+  top: 50%;
+  margin-top: -8px;
+  margin-bottom: 0;
+  width: 100%;
+  font-size: 0.88em;
+  text-align: center;
+}
+#page_link h3:after {
+  display: inline-block;
+  content: '';
+  margin-bottom: 2px;
+  margin-left: .5em;
+  background: url(../common/images/sp/arrow_ic01.png) no-repeat right center;
+  background-size: 6px auto;
+  width: 6px;
+  height: 10px;
+  vertical-align: middle;
+}

@@ -1,0 +1,503 @@
+@charset "utf-8";
+/* CSS Document */
+
+@charset "utf-8";
+
+/* 全体 */
+html{
+	font-size: 100%;
+	}
+body {
+	margin:0;
+	padding:0;
+	font-family: "メイリオ", "Meiryo", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", sans-serif;
+
+	line-height: 1.75;
+	color: #333;
+}
+/* for IE7 */
+*+html body {
+	font-family:"メイリオ";
+}
+
+/* for IE6 */
+* html body {
+
+}
+
+
+#gyomu-service h2,#gyomu-service h3,#gyomu-service h4,#gyomu-service h5,#gyomu-service h6 {
+	margin-bottom: 35px;
+}
+
+.kadomaru{
+		border-radius: 6px;		/* CSS3草案 */
+	-webkit-border-radius: 6px;	/* Safari,Google Chrome用 */
+	-moz-border-radius: 6px;	/* Firefox用 */}
+
+br.clear {
+	clear: both;
+}
+strong {
+	font-weight: bold;
+}
+span.topic {
+	font-weight: bold;
+	color: #0066CC;
+}
+
+ul,li,p,dl,dt,dd,h1,h2,h3{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	}
+.paddingTop14 {
+	padding-top: 14px;}
+.paddingTop28 {
+	padding-top: 28px;}
+.paddingTop56 {
+	padding-top: 56px;}
+.paddingTop112 {
+	padding-top: 112px;}
+
+.paddingTop32 {
+	padding-top: 32px;}
+.paddingTop40 {
+	padding-top: 40px;}
+
+.paddingBottom14 {
+	padding-Bottom: 14px;}
+.paddingBottom28 {
+	padding-Bottom: 28px;}
+.paddingBottom56 {
+	padding-Bottom: 56px;}
+.paddingBottom112 {
+	padding-Bottom: 112px;}
+
+.paddingBottom32 {
+	padding-Bottom: 32px;}
+.paddingBottom40 {
+	padding-Bottom: 40px;}
+
+
+
+.marginTop14 {
+	margin-top: 14px;}
+.marginTop28 {
+	margin-top: 28px;}
+.marginTop56 {
+	margin-top: 56px;}
+.marginTop112 {
+	margin-top: 112px;}
+
+.marginTop32 {
+	margin-top: 32px;}
+.marginTop40 {
+	margin-top: 40px;}
+
+.marginBottom14 {
+	margin-Bottom: 14px;}
+.marginBottom28 {
+	margin-Bottom: 28px;}
+.marginBottom56 {
+	margin-Bottom: 56px;}
+.paddingBottom112 {
+	padding-Bottom: 112px;}
+
+.marginBottom32 {
+	margin-Bottom: 32px;}
+.marginBottom40 {
+	margin-Bottom: 40px;}
+.marginBottom80 {
+	margin-Bottom: 80px;}
+.marginBottom135 {
+	margin-Bottom: 135px;}
+.marginLeft10 {
+	margin-left: 10px;}
+.marginLeft20 {
+	margin-left: 20px;}
+.marginLeft30 {
+	margin-left: 30px;
+}
+.shift_center {
+	text-align: center;}
+
+.shift_left {
+	text-align: left;}
+
+.lh12 {
+	line-height: 1.2;
+}
+.lh13 {
+	line-height: 1.3;
+}
+.lh14 {
+	line-height: 1.4;
+}
+.lh15 {
+	line-height: 1.5;
+}
+.lh16 {
+	line-height: 1.6;
+}
+.fs12{font-size: 12px;}
+.fs14{font-size: 14px;}
+.fs16{
+	font-size: 16px;
+	font-weight: normal;
+}
+.fs18{font-size: 18px;}
+.fs20{font-size: 20px;}
+.fs22{font-size: 22px;}
+.fs24{font-size: 24px;}
+.fs26{font-size: 26px;}
+.fs28{font-size: 28px;}
+.fs30{font-size: 30px;}
+.fs38{font-size: 38px;}
+.p-line {
+	font-weight: bold;
+	background-image: url(../images/p-line.png);
+	background-repeat: repeat-x;
+	background-position: left 10px;
+}
+.strong{
+	font-weight: bold;
+}
+.nomal{
+	font-weight: normal;
+}
+
+
+.ind01{
+	padding-left: 1em; /*1em（1文字）分、右に動かす*/
+    text-indent: -1em; /*最初の行だけ1em（1文字）分、左に動かす*/
+
+	}
+ a:link{
+}
+
+a:visited{
+}
+a:hover{
+	text-decoration:none;
+}
+/*マウスオーバー*/
+.light:hover {
+	filter:alpha(opacity="60");
+	opacity:0.6;
+  -moz-opacity:0.6;
+}
+.light_sem:hover {
+	filter:alpha(opacity="80");
+	opacity:0.8;
+  -moz-opacity:0.8;
+}
+#light-movie:hover {
+	filter:alpha(opacity="50");
+	opacity:0.5;
+  -moz-opacity:0.50;
+}
+.light02:hover {
+	filter:alpha(opacity="60");
+	opacity:0.6;
+  -moz-opacity:0.60;
+}
+#light02-movie:hover {
+	filter:alpha(opacity="60");
+	opacity:0.6;
+  -moz-opacity:0.60;
+}
+.section_980{
+	overflow: hidden;
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.lead {
+	text-align: center;
+	margin-bottom: 50px;
+	font-size: 26px;
+	clear: both;
+}
+
+/*固定*/
+#gyomu-service #header-fixed {
+	position: fixed;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 140px;
+	z-index: 1000;
+}
+
+
+/* CSS Document */
+#navigation {
+	background-color: #036EB8;
+	font-size: 14px;
+}
+#navigation ul {
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #FFF;
+	height: 50px;
+}
+#navigation ul li#on{
+	display:block;
+	line-height:50px;
+	height:50px;
+	text-align:center;
+	color:#fff;
+	text-decoration: none;
+	background-color: #036;
+}
+#navigation ul li a{
+	display:block;
+	line-height:50px;
+	height:50px;
+	text-align:center;
+	color:#fff;
+	text-decoration: none;
+}
+#navigation ul li a:link{
+
+}
+#navigation ul li a:visited{
+
+}
+#navigation ul li a:hover{
+	background-color: #027CCE;
+}
+#navigation ul li a:active{
+	text-decoration: none;
+	color: #FFF;
+}
+#navigation ul li.left {
+	width: 195px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #FFF;
+	float: left;
+}
+#navigation ul li.right {
+	width: 194px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #FFF;
+	float: left;
+}
+
+
+
+/*パンくず*/
+
+#pankuzu {
+	background-color: #FFFFFF;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 12px;
+	padding-bottom: 10px;
+	color: #666;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #dddddd;
+	font-size: 12px;
+	overflow: hidden;
+}
+#pankuzu a{
+	color: #666;
+}
+/*フッターのお問い合わせ*/
+#footer02 {
+	overflow: hidden;
+	background-color: #EBF5F4;
+	clear: both;
+	margin: 0px;
+	padding-top: 58px;
+	padding-right: 0px;
+	padding-bottom: 52px;
+	padding-left: 0px;
+	background-image: url(../images/f_contact_bg.gif);
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 100px;
+}
+#footer02 p{
+	padding-top: 34px;
+	overflow: hidden;
+	width: 167px;
+	float: left;
+}
+#footer02 ul#f-contact{
+	overflow: hidden;
+	float: right;
+	margin: 0px;
+	padding: 0px;
+	width: 753px;
+}
+#footer02 ul#f-contact li#f-request-btn{
+	overflow: hidden;
+	float: left;
+	width: 164px;
+	margin-right: 30px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #C4E3DD;
+	padding-right: 30px;
+	height: 66px;
+	margin-top: 17px;
+	vertical-align: top;
+}
+#footer02 ul#f-contact li#f-consul-btn{
+	overflow: hidden;
+	text-align: left;
+	margin-top: 17px;
+	float: left;
+	width: 196px;
+	margin-left: 220px;
+}
+#footer02 ul#f-contact li#f-contact-tel{
+	float: right;
+	width: 300px;
+
+}
+#footer02 .section_980 {
+	background-color: #F3F8FC;
+}
+/*フッターのコピーライト*/
+#footer {
+	padding-top: 40px;
+	overflow: hidden;
+	height: 46px;
+	padding-bottom: 18px;
+}
+
+
+#footer ul {
+	float: right;
+	width: 800px;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 130px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#footer ul li#img {
+	float: right;
+	width: 114px;
+	margin-left: 20px;
+}
+#footer ul li#tx {
+	text-align: right;
+	float: right;
+	font-size: 10px;
+	padding-top: 29px;
+}
+
+
+span.brandcolor {
+	font-weight: bold;
+	color: #007ABD;
+}
+.end {
+	color: #C00;
+}
+.full02 {
+	font-size: 10px;
+	color: #C00;
+}
+
+#gyomu-service #mn-model_link {
+	background-image: url(../../images/mn-model_link.jpg);
+	background-repeat: no-repeat;
+	background-position: 70px top;
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #1569AD;
+	border-bottom-color: #1569AD;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align: center;
+	clear: both;
+	background-color: #CFD9D1;
+}
+#mn-model_link #link_wrap {
+	overflow: hidden;
+	padding: 0px;
+	width: 830px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 30px;
+}
+
+#gyomu-service #mn-model_link #mn_left {
+	font-size: 24px;
+	color: #000066;
+	font-weight: bold;
+	line-height: 1.4;
+	float: left;
+	width: 650px;
+	text-align: left;
+}
+#mn-model_link #mn_right {
+	float: right;
+	width: 151px;
+}
+
+
+#mn-model_link #mn_btn {
+	text-align: center;
+	width: 450px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+
+/*ページトップへ*/
+#page-top {
+	z-index: 2;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	font-size: 70%;
+	line-height: 1.6;
+}
+#page-top a {
+	text-decoration: none;
+	color: #fff;
+	width: 100px;
+	text-align: center;
+	display: block;
+	border-radius: 5px;
+	padding-top: 35px;
+	padding-right: 0;
+	padding-bottom: 14px;
+	padding-left: 0;
+	background-color: #154E7E;
+	background-image: url(../images/pagetop_arrow.png);
+	background-repeat: no-repeat;
+	background-position: center 13px;
+}
+#page-top a:hover {
+	text-decoration: none;
+	background-color: #154E7E;
+}#link_sem {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #1569AD;
+}
+#link_sem #sem_tit {
+	font-size: 30px;
+	font-weight: bold;
+	color: #007ABF;
+}
+#link_sem .section_980 {
+	background-image: url(../images/sem_bg.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
